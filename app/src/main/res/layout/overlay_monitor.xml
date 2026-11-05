@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:background="@drawable/bg_rounded"
+    android:padding="12dp" android:layout_margin="16dp">
+    <TextView android:id="@+id/tvCpu" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="#00FFAA"
+        android:text="CPU: 0%" android:textStyle="bold" android:textSize="12sp" />
+    <TextView android:id="@+id/tvRam" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="#FFFFFF"
+        android:layout_marginStart="16dp" android:text="RAM: 0%" android:textSize="12sp" />
+</LinearLayout>
